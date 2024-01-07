@@ -1,20 +1,18 @@
-# Принципы структурного программирования
+# Principles of Structured Programming
 
-Становление и развитие структурного программирования связано с именем Эдсгера Дейкстры.
-* Принцип 1. Следует отказаться от использования оператора безусловного перехода goto.
-* Принцип 2. Любая программа строится из трёх базовых управляющих конструкций: последовательность, ветвление, цикл.
-* Принцип 3. В программе базовые управляющие конструкции могут быть вложены друг в друга произвольным образом. Никаких других средств управления последовательностью выполнения операций не предусматривается.
-* Принцип 4. Повторяющиеся фрагменты программы можно оформить в виде подпрограмм (процедур и функций). Таким же образом (в виде подпрограмм) можно оформить логически целостные фрагменты программы, даже если они не повторяются.
-* Принцип 5. Каждую логически законченную группу инструкций следует оформить как блок. Блоки являются основой структурного программирования.
-* Принцип 6. Все перечисленные конструкции должны иметь один вход и один выход.
-* Принцип 7. Разработка программы ведётся пошагово, методом «сверху вниз» (top-down method).
+The formation and development of structured programming is associated with the name of Edsger Dijkstra.
+* Principle 1: Avoid using the goto operator.
+* Principle 2. Any program is built from three basic control structures: sequence, branching, loop.
+* Principle 3. In a program, basic control structures can be nested inside each other in any way. There are no other means of controlling the sequence of operations.
+* Principle 4. Repeated program fragments can be formatted as subroutines (procedures and functions). In the same way (in the form of subroutines), you can arrange logically integral program fragments, even if they are not repeated.
+* Principle 5. Each logically complete group of instructions should be designed as a block. Blocks are the basis of structured programming.
+* Principle 6. All listed structures must have one entrance and one exit.
+* Principle 7. Program development is carried out step by step, using the top-down method.
 
-Следствия и дополнения вышеизложенных принципов:
+Corollaries and additions to the above principles:
 
-1. Запрет на использование глобальных переменных
-2. Не более одного выхода из функции. Исключение составляет предварительная проверка аргументов функции.
-3. Не более одного выхода из цикла - это может быть как условие, так и ключевое слово break
-4. Вложенность любых блоков не должна превышать 4
-5. Размер функций ограничен по строкам и составляет 40-50 строк
-
-![goto](../misc/eng/images/GOTO.png)
+1. Prohibition of using global variables
+2. No more than one function exit. The exception is the preliminary check of function arguments
+3. No more than one exit from the loop - this can be either a condition or the break keyword
+4. The nesting of any blocks should not exceed 4
+5. The size of functions is limited by lines and is 40-50 lines
